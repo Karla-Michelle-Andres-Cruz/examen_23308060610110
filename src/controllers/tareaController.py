@@ -1,4 +1,4 @@
-from examen_23308060610110.src.models.tareas import Tarea
+from models.tareas import Tarea
 
 class TareaController:
     def __init__(self):

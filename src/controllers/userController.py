@@ -1,5 +1,5 @@
-from examen_23308060610110.src.models.users import Usuario
-from examen_23308060610110.src.models.schemas import UserSchema, UsuarioAlta
+from models.users import Usuario
+from models.schemas import UserSchema, UsuarioAlta
 from pydantic import ValidationError
 
 class AuthController:

@@ -1,9 +1,9 @@
 import flet as ft
-from examen_23308060610110.src.controllers.userController import AuthController
-from examen_23308060610110.src.controllers.tareaController import TareaController 
-from examen_23308060610110.src.view.loginView import LoginView
-from examen_23308060610110.src.view.registroView import RegistroView
-from examen_23308060610110.src.view.dashboard import DashboardView
+from controllers.userController import AuthController
+from controllers.tareaController import TareaController 
+from view.loginView import LoginView
+from view.registroView import RegistroView
+from view.dashboard import DashboardView
 
 def start(page: ft.Page):
     auth_ctrl = AuthController()
